@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.UserDaoMapper">
+<!--<select id="find"  parameterType="int">
+    select count(*) from xm_user where u_name=#{name} and u_pass = #{pass}
+</select>-->
+</mapper>

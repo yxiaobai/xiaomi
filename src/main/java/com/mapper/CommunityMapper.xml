@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.CommunityMapper">
+    <!--查询帖子的全部信息-->
+    <select id="queryall" resultType="Community">
+        select * from xm_community
+    </select>
+
+    <!--通过IDshanchu 帖子的全部信息-->
+ <!--   <delete id="delById" parameterType="int">
+        delete from xm_community where c_id=#{c_id}
+    </delete>
+-->
+</mapper>

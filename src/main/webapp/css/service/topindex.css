@@ -1,0 +1,886 @@
+.xm-service-box h1, .xm-service-box h2, .xm-service-box h3, .xm-service-box h4, .xm-service-box h5 {
+    padding: 0;
+    margin: 0
+}
+
+.xm-service-box ul {
+    padding: 0;
+    margin: 0
+}
+
+.xm-service-box ul li {
+    list-style: none
+}
+
+.xm-service-box p {
+    margin: 0
+}
+
+.xm-service-box table {
+    width: 100%
+}
+
+.xm-service-box dl dd {
+    margin: 0
+}
+
+.xm-service-box a:hover {
+    outline: none
+}
+
+.xm-service-box {
+    background: #f5f5f5
+}
+
+.xm-service-box .content {
+    background: #fff
+}
+
+.xm-service-box h2, .xm-service-box h3, .xm-service-box ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal
+}
+
+.xm-service-box h3, .xm-service-box .title {
+    color: #212121;
+    font-size: 16px;
+    line-height: 46px
+}
+
+.xm-service-box h3 span, .xm-service-box .title span {
+    color: #757575;
+    font-size: 14px;
+    margin-left: 10px
+}
+
+.xm-service-box .title {
+    font-size: 20px
+}
+
+.xm-service-box h2 {
+    font-size: 36px;
+    color: #b0b0b0;
+    line-height: 80px
+}
+
+.xm-service-box .xm-service-sidebar {
+    overflow: hidden;
+    _zoom: 1;
+    margin: 0 0 100px 0
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-content .nav-list {
+    padding: 38px 0 44px 48px
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-content .nav-list ul {
+    margin-top: 10px
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-content .nav-list ul li a {
+    color: #757575;
+    font-size: 14px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    line-height: 34px
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-content .nav-list ul li.cur a, .xm-service-box .xm-service-sidebar .xm-sidebar-content .nav-list ul li.cur i, .xm-service-box .xm-service-sidebar .xm-sidebar-content .nav-list ul li:hover a, .xm-service-box .xm-service-sidebar .xm-sidebar-content .nav-list ul li:hover i {
+    color: #ff6700
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-content .nav-list .line {
+    width: 84px;
+    margin: 14px 0;
+    display: block;
+    border-bottom: 1px solid #dbdbdb
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-smart .nav-list ul li a {
+    color: #e0e0e0;
+    cursor: inherit
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-smart .nav-list ul li:hover a, .xm-service-box .xm-service-sidebar .xm-sidebar-smart .nav-list ul li:hover i {
+    color: #e0e0e0
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-smart .nav-list ul li.cur a, .xm-service-box .xm-service-sidebar .xm-sidebar-smart .nav-list ul li.cur i {
+    color: #ff6700
+}
+
+.xm-service-box .xm-service-sidebar .xm-sidebar-smart .nav-list .line {
+    border-bottom: 1px solid;
+}
+
+.xm-service-box .service-right {
+    padding: 28px 48px 80px;
+    margin-bottom: 80px
+}
+
+.xm-service-box .service-right h3 {
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 30px
+}
+
+.xm-service-box .service-right p {
+    color: #757575
+}
+
+.xm-service-box .service-right .common-service {
+    margin-top: 25px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dbdbdb
+}
+
+.xm-service-box .service-right .common-service li {
+    float: left;
+    width: 124px;
+    margin-right: 100px;
+    text-align: center;
+    list-style-type: none
+}
+
+.xm-service-box .service-right .common-service li span {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    color: #666
+}
+
+.xm-service-box .service-right .common-service li img {
+    display: block;
+    margin: 0 auto 20px
+}
+
+.xm-service-box .service-right .hostfaq li {
+    line-height: 24px;
+    margin: 24px 0 0 18px;
+    list-style-type: disc
+}
+
+.service-icon, .icon-welcome {
+    background-position: top left;
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat
+}
+
+.service-icon {
+    /*background-image: url("../images/index_icon.jpg");*/
+    height: 48px
+}
+
+.icon-index01 {
+    background-position: 0 0
+}
+
+.icon-index02 {
+    background-position: 0 -47px
+}
+
+.icon-index03 {
+    background-position: 0 -95px
+}
+
+.icon-index04 {
+    background-position: 0 -144px
+}
+
+.icon-index05 {
+    background-position: 0 -193px
+}
+
+.icon-index06 {
+    background-position: 0 -233px
+}
+
+.icon-index07 {
+    background-position: 0 -278px
+}
+
+.icon-welcome {
+   /* background-image: url("../imgages/icon.jpg");*/
+    height: 45px
+}
+
+.icon-welcome01 {
+    background-position: 0 0px
+}
+
+.icon-welcome02 {
+    background-position: 0 -45px;
+    height: 44px
+}
+
+.icon-welcome03 {
+    background-position: 0 -88px;
+    height: 45px
+}
+
+.icon-welcome04 {
+    background-position: 0 -141px
+}
+
+.icon-welcome05 {
+    background-position: 0 -192px
+}
+
+.icon-welcome06 {
+    background-position: 0 -246px
+}
+
+.icon-contact {
+    background-position: top left;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+
+
+}
+
+.icon-contact01 {
+    background-position: 0 0
+}
+
+.icon-contact02 {
+    background-position: 0 -109px
+}
+
+.icon-welcome-old {
+    background-position: top left;
+    width: 92px;
+    height: 92px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat
+}
+
+.icon-download01 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_01.jpg") no-repeat
+}
+
+.icon-download02 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_02.jpg") no-repeat
+}
+
+.icon-download03 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_03.jpg") no-repeat
+}
+
+.icon-download04 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_04.jpg") no-repeat
+}
+
+.icon-download05 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_05.jpg") no-repeat
+}
+
+.icon-download06 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_06.jpg") no-repeat
+}
+
+.icon-download07 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_07.jpg") no-repeat
+}
+
+.icon-download08 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_08.jpg") no-repeat
+}
+
+.icon-download09 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_09.jpg") no-repeat
+}
+
+.icon-download10 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_10.jpg") no-repeat
+}
+
+.icon-download11 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/icon/download_11.jpg") no-repeat
+}
+
+.cloud01 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_01.jpg") no-repeat
+}
+
+.cloud02 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_02.jpg") no-repeat
+}
+
+.cloud03 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_03.jpg") no-repeat
+}
+
+.cloud04 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_04.jpg") no-repeat
+}
+
+.cloud05 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_05.jpg") no-repeat
+}
+
+.cloud06 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_06.jpg") no-repeat
+}
+
+.cloud07 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_07.jpg") no-repeat
+}
+
+.cloud08 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_08.jpg") no-repeat
+}
+
+.cloud09 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/miphone_09.jpg") no-repeat
+}
+
+.download-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("//c1.mifile.cn/f/i/2013/cn/icon/service/icon-download.png") no-repeat;
+    opacity: 90;
+    filter: alpha(opacity=9000) \9
+}
+
+.download01 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_01.jpg") no-repeat
+}
+
+.download02 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_02.jpg") no-repeat
+}
+
+.download03 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_03.jpg") no-repeat
+}
+
+.download04 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_04.jpg") no-repeat
+}
+
+.download05 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_05.jpg") no-repeat
+}
+
+.download06 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_06.jpg") no-repeat
+}
+
+.download07 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_07.jpg") no-repeat
+}
+
+.download08 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_08.jpg") no-repeat
+}
+
+.download09 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_09.jpg") no-repeat
+}
+
+.download10 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_10.jpg") no-repeat
+}
+
+.download11 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_11.jpg") no-repeat
+}
+
+.download12 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_12.jpg") no-repeat
+}
+
+.download13 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_13.jpg") no-repeat
+}
+
+.download14 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_14.jpg") no-repeat
+}
+
+.download15 {
+    background: url("//c1.mifile.cn/f/i/2014/cn/service/phone/mi-download_15.jpg") no-repeat
+}
+
+.service-contact {
+    margin-bottom: 100px
+}
+
+.service-contact .service-hd {
+    margin: 0 48px;
+    position: relative
+}
+
+.service-contact .service-hd h2 {
+    color: #424242;
+    height: 82px;
+    line-height: 82px;
+    font-size: 30px
+}
+
+.contact {
+    -webkit-font-smoothing: antialiased
+}
+
+.contact dl, .contact dd {
+    margin: 0;
+    padding: 0;
+    color: #757575
+}
+
+.contact dl {
+    width: 49%;
+    text-align: center;
+    float: left
+}
+
+.contact dl dt {
+    font-size: 30px;
+    padding: 10px 0;
+    color: #424242
+}
+
+.contact .bd {
+    padding: 100px 0
+}
+
+.contact .o {
+    border-right: 1px solid #e0e0e0
+}
+
+.contact .o dt img {
+    vertical-align: middle;
+    cursor: pointer
+}
+
+.contact .t dt {
+    background-position: 0 -50px
+}
+
+.contact input {
+    display: block;
+    margin: 25px auto 0 auto
+}
+
+.contact .weixin {
+    border-top: 14px solid #f5f5f5;
+    height: 160px;
+    background: url(//c1.mifile.cn/f/i/17/service/contact-weixin.png) no-repeat
+}
+
+.online-pop .online-tab {
+    padding: 0 10px
+}
+
+.online-pop .online-tab ul {
+    margin: 0;
+    padding: 0
+}
+
+.online-pop .online-tab li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer
+}
+
+.online-pop .online-tab li:hover {
+    color: #ffac13
+}
+
+.online-pop .online-tab .on {
+    color: #ffac13
+}
+
+.online-pop .online-con {
+    padding: 10px
+}
+
+.online-pop .online-con ol {
+    margin: 0;
+    padding: 0
+}
+
+.online-pop .online-con li {
+    padding: 5px 0;
+    list-style: none
+}
+
+.online-pop .online-con li span {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 10px;
+    border: 1px solid #e0e0e0;
+    color: #ffac13;
+    text-align: center
+}
+
+.online-pop .online-con li strong {
+    font-weight: normal
+}
+
+.online-pop .show-online-btn {
+    display: block;
+    width: 80%;
+    margin: 0 auto
+}
+
+.faq-pop h3 {
+    line-height: 2
+}
+
+.ui-wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    *zoom: 1
+}
+
+.ui-wrapper img {
+    display: block;
+    max-width: 100%
+}
+
+.ui-wrapper .ui-viewport {
+    -webkit-transform: translatez(0);
+    -ms-transform: translatez(0);
+    transform: translatez(0)
+}
+
+.ui-wrapper .ui-pager, .ui-wrapper .ui-controls-auto {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    z-index: 999
+}
+
+.ui-wrapper .ui-loading {
+    min-height: 50px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999
+}
+
+.ui-wrapper .ui-pager {
+    font-size: 12px;
+    text-align: center;
+    color: #666
+}
+
+.ui-wrapper .ui-pager .ui-pager-item, .ui-wrapper .ui-controls-auto .ui-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline
+}
+
+.ui-wrapper .ui-pager.ui-default-pager a {
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin: 0 5px;
+    border: 2px solid #fff;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    text-align: left;
+    text-indent: -9999px;
+    overflow: hidden;
+    _zoom: 1;
+    background: #f5f5f5;
+    background: rgba(0, 0, 0, 0.4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#66000000", endColorstr="#66000000") \9;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.ui-wrapper .ui-pager.ui-default-pager a:hover, .ui-wrapper .ui-pager.ui-default-pager a.active {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#66ffffff", endColorstr="#66ffffff") \9;
+    border-color: #757575;
+    border-color: rgba(0, 0, 0, 0.4)
+}
+
+.ui-wrapper .ui-pager.ui-default-pager a:focus {
+    outline: 0
+}
+
+.ui-wrapper .ui-prev {
+    left: 0;
+    background: url(//c1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -84px 50%
+}
+
+.ui-wrapper .ui-next {
+    right: 0;
+    background: url(//c1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -125px 50%
+}
+
+.ui-wrapper .ui-prev:hover {
+    background-position: 0 50%
+}
+
+.ui-wrapper .ui-next:hover {
+    background-position: -42px 50%
+}
+
+.ui-wrapper .ui-controls-direction a {
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+    text-indent: -9999px;
+    overflow: hidden;
+    _zoom: 1;
+    outline: 0
+}
+
+.ui-wrapper .ui-controls-direction a.disabled {
+    display: none
+}
+
+@font-face {
+    font-family: 'F4bcd4';
+    src: url("//i1.mifile.cn/b2c-fe-huodong/f/4bcd4cf2beb973.eot");
+    src: local(FZLanTingHeiS-R-GB), url("//i1.mifile.cn/b2c-fe-huodong/f/4bcd4cf2beb973.eot?#iefix") format("embedded-opentype"), url("//i1.mifile.cn/b2c-fe-huodong/f/4bcd4cf2beb973.woff") format("woff"), url("//i1.mifile.cn/b2c-fe-huodong/f/4bcd4cf2beb973.ttf") format("truetype"), url("//i1.mifile.cn/b2c-fe-huodong/f/4bcd4cf2beb973.svg") format("svg")
+}
+
+.xm-service-box h2 {
+    display: block;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #666;
+    font-weight: normal
+}
+
+.xm-service-box h1, .xm-service-box h2, .xm-service-box dt {
+    font-family: 'F4bcd4', "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif
+}
+
+.service-index {
+    background: #f5f5f5
+}
+
+.service-index h1 {
+    font-size: 46px;
+    color: #fff
+}
+
+.service-index .service-index-header {
+    height: 250px;
+    line-height: 250px;
+    text-align: center
+}
+
+.service-index .service-index-goods a span, .service-index .service-index-fquestion a span {
+    display: block;
+    color: #757575;
+    font-size: 14px;
+    line-height: 28px
+}
+
+.service-index .service-index-goods {
+    overflow: hidden;
+    _zoom: 1
+}
+
+.service-index .service-index-goods ul {
+    margin: 0;
+    padding: 0;
+    margin-right: -1px;
+    margin-top: 1px
+}
+
+.service-index .service-index-goods ul li {
+    text-align: center;
+    list-style: none;
+    height: 287px;
+    float: left;
+    width: 305.5px;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5
+}
+
+.service-index .service-index-goods ul li div {
+    height: 165px;
+    line-height: 165px;
+    margin: 45px auto 13px
+}
+
+.service-index .service-index-goods ul li div img {
+    vertical-align: middle
+}
+
+.service-index .service-index-goods ul li a {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    color: #424242;
+    width: 100%;
+    height: 180px
+}
+
+.service-index .service-index-goods ul li a:hover span {
+    color: #ff6700
+}
+
+.service-index .service-index-fquestion .fquestion {
+    overflow: hidden;
+    _zoom: 1
+}
+
+.service-index .service-index-fquestion .fquestion ul li {
+    height: 160px;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f5;
+    width: 309px;
+    border-right: 1px solid #f5f5f5;
+    float: left
+}
+
+.service-index .service-index-fquestion .fquestion ul li a {
+    display: block;
+    height: 100%
+}
+
+.service-index .service-index-fquestion .fquestion ul li a img {
+    margin-top: 24px;
+    width: 66px;
+    height: 66px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline
+}
+
+.service-index .service-index-fquestion .fquestion ul li a:hover span {
+    color: #ff6700
+}
+
+.service-index .service-index-fquestion .fquestion ul li dt {
+    font-size: 16px;
+    color: #333;
+    padding-top: 10px
+}
+
+.service-index .service-index-fquestion .fquestion ul li dd {
+    font-size: 12px
+}
+
+.service-index .service-index-needHelp {
+    clear: both;
+    overflow: hidden;
+    _zoom: 1
+}
+
+.service-index .service-index-needHelp .needhelp {
+    margin-right: -1px;
+    margin-top: 1px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.service-index .service-index-needHelp .needhelp dl {
+    margin: 0;
+    width: 165.5px;
+    float: left;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 30px 70px;
+    height: 300px \9
+}
+
+.service-index .service-index-needHelp .needhelp dl dt {
+    font-size: 18px;
+    line-height: 36px;
+    color: #333;
+    padding-bottom: 5px
+}
+
+.service-index .service-index-needHelp .needhelp dl dd {
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 0
+}
+
+.service-index .service-index-needHelp .needhelp dl dd a.hot:after {
+    content: "";
+    width: 15px;
+    height: 19px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: -4px;
+    margin-left: 10px;
+    background: url("http://c1.mifile.cn/f/i/16/service/hoticon.png") 0 0 no-repeat
+}
+
+.service-index .service-index-needHelp .needhelp dl.last {
+    border-right: 0
+}
+
+.contact {
+    margin-bottom: 100px
+}
+
+.contact .bd {
+    padding: 35px 0
+}
+
+.contact .serviceTime-normal-spe {
+    display: none
+}
+
+.contact dl {
+    text-align: left
+}
+
+.contact dl dt, .contact dl dd {
+    margin-left: 270px
+}
+
+.contact dl dt {
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 7px;
+    margin-top: 8px;
+    color: #333
+}
+
+.contact dl dd {
+    font-size: 12px
+}
+
+.contact input {
+    margin: 10px 0 0 270px
+}
+
+.icon-contact {
+    *zoom: 1;
+    *display: inline;
+    float: left;
+    margin-left: 137px
+}

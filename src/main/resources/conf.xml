@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--注意properties 与 typeAliases 的先后顺序-->
+    <properties resource="db.properties"></properties><!--数据源-->
+
+    <settings>
+        <setting name="logPrefix" value="dao."/>  <!--mybatis日志框架-->
+    </settings>
+    <!--使用默认别名  -->
+    <typeAliases>
+        <package name="com.entity"></package>
+    </typeAliases>
+    <environments default="development"><!--development开发模式-->
+        <environment id="development">
+            <transactionManager type="JDBC"/> <!--transactionManager事物管理器类型-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${db.driver}"/>
+                <property name="url" value="${db.url}"/>
+                <property name="username" value="${db.user}"/>
+                <property name="password" value="${db.pass}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 加载映射 -->
+    <mappers>
+        <package name="com.mapper"></package>
+    </mappers>
+</configuration>
+

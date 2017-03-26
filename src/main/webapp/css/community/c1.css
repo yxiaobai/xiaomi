@@ -1,0 +1,321 @@
+.xmcomm_header_wrap {
+    position: relative;
+    height: 50px;
+    min-width: 990px;
+    background: #5b5a5a;
+    background: rgba(0, 0, 0, 0.67);
+    -webkit-font-smoothing: antialiased
+}
+
+.xmcomm_header {
+    position: relative;
+    height: 50px;
+    margin: 0 auto
+}
+
+.xmcomm_header .logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 5px;
+    text-indent: -99999px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    background: url("//s1.bbs.xiaomi.cn/statics/images/logo_cn.png") 0
+    center no-repeat
+}
+
+.xmcomm_header .mobile_qr {
+    position: absolute;
+    left: 162px;
+    top: 0;
+    width: 70px;
+    margin-left: 5px;
+    font-size: 14px;
+    z-index: 100
+}
+
+.xmcomm_header .mobile_qr .mobile {
+    display: block;
+    line-height: 50px;
+    padding-left: 14px;
+    background: url("//s1.bbs.xiaomi.cn/statics/images/header_mobile.png") 0
+    center no-repeat;
+    color: #ff7e3e
+}
+
+.xmcomm_header .mobile_qr .qr {
+    display: none;
+    width: 151px;
+    padding: 16px 16px 10px;
+    border: 1px solid #e6e6e6;
+    background: #fff
+}
+
+.xmcomm_header .mobile_qr .qr span {
+    display: block;
+    height: 151px;
+    background: url("//s1.bbs.xiaomi.cn/statics/images/header_qr.png")
+    center no-repeat
+}
+
+.xmcomm_header .mobile_qr .qr strong {
+    display: block;
+    line-height: 24px;
+    color: #454545;
+    text-align: center
+}
+
+.xmcomm_header .mobile_qr:hover .qr {
+    display: block
+}
+
+.xmcomm_header .header_icon {
+    width: 16px;
+    vertical-align: middle;
+    text-indent: -9999px;
+    display: inline-block;
+    background: url("//s1.bbs.xiaomi.cn/statics/images/header_icon.png")
+    no-repeat
+}
+
+.xmcomm_header .header_icon.header_revise {
+    height: 16px;
+    margin-top: -3px;
+    background-position: 0 -13px
+}
+
+.xmcomm_header .header_icon.header_search {
+    height: 16px;
+    margin-right: 5px;
+    background-position: 0 -31px
+}
+
+.xmcomm_header .header_menu {
+    position: absolute;
+    left: 50%;
+    line-height: 50px;
+    margin: 0 0 0 -243px;
+    z-index: 100
+}
+
+.xmcomm_header .header_menu li {
+    float: left;
+    padding: 0 8px;
+    color: #fff;
+    font-size: 16px;
+    z-index: 20
+}
+
+.xmcomm_header .header_menu li:last-child {
+    padding: 0
+}
+
+.xmcomm_header .header_menu li:last-child:after {
+    content: ".";
+    width: 0;
+    opacity: 0
+}
+
+.xmcomm_header .header_menu li a,.xmcomm_header .header_menu li span {
+    color: #fff;
+    cursor: pointer
+}
+
+.xmcomm_header .header_menu li a:hover,.xmcomm_header .header_menu li span:hover
+{
+    color: #ff8b3d
+}
+
+.xmcomm_header .header_menu li span {
+    *float: left;
+    *padding-right: 20px
+}
+
+.xmcomm_header .header_menu li span i {
+    width: 10px;
+    height: 10px;
+    background-position: 0 -49px;
+    display: inline-block;
+    margin: 6px 0 0 5px
+}
+
+.xmcomm_header .header_menu li .header_menu_list,.xmcomm_header .header_menu li .header_more_list
+{
+    top: -100px;
+    height: 0;
+    max-height: 0;
+    opacity: 0;
+    z-index: -1
+}
+
+.xmcomm_header .header_menu li:hover .header_menu_list,.xmcomm_header .header_menu li:hover .header_more_list
+{
+    top: 50px;
+    height: auto;
+    max-height: none;
+    opacity: 1
+}
+
+.xmcomm_header .header_menu_list {
+    position: absolute;
+    left: -164px;
+    width: 990px;
+    padding: 15px 0;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    z-index: 11;
+    overflow: hidden
+}
+
+.xmcomm_header .header_menu_list dl {
+    line-height: 42px
+}
+
+.xmcomm_header .header_menu_list dl dt {
+    float: left;
+    width: 140px;
+    color: #ff6700;
+    text-align: right
+}
+
+.xmcomm_header .header_menu_list dl dd {
+    margin-left: 150px;
+    border-bottom: 1px solid #eee
+}
+
+.xmcomm_header .header_menu_list dl:last-child dd {
+    border-bottom: none
+}
+
+.xmcomm_header .header_menu_list ul {
+    overflow: auto
+}
+
+.xmcomm_header .header_menu_list ul li {
+    float: left;
+    padding: 0;
+    width: 155px;
+    list-style: none;
+    color: #cacaca;
+    text-align: left;
+    white-space: nowrap
+}
+
+.xmcomm_header .header_menu_list ul li:before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+    margin-top: 18px;
+    background: #cacaca;
+    border-radius: 50%;
+    vertical-align: top
+}
+
+.xmcomm_header .header_menu_list ul li a {
+    color: #616161
+}
+
+.xmcomm_header .header_menu_list ul li a:hover {
+    color: #ff7519
+}
+
+.xmcomm_header .header_more_list {
+    position: absolute;
+    left: 544px;
+    width: 182px;
+    padding: 35px 0;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    z-index: 11;
+    overflow: hidden
+}
+
+.xmcomm_header .header_more_list ul {
+    margin: -6px 0 0 1px;
+    width: 182px
+}
+
+.xmcomm_header .header_more_list ul li {
+    float: left;
+    padding: 0;
+    margin: 0 0 0 48px;
+    width: 133px;
+    height: 30px;
+    line-height: 30px;
+    list-style-type: disc;
+    border-right: 1px solid #dfdfdf;
+    color: #6d6d6d;
+    font-size: 14px;
+    text-align: left
+}
+
+.xmcomm_header .header_more_list ul li a {
+    color: #6d6d6d;
+    line-height: 30px
+}
+
+.xmcomm_header .header_more_list ul li a:hover {
+    color: #ff7519
+}
+
+.xmcomm_header .header_more_list ul li.hide {
+    display: none
+}
+
+@media screen and (max-width:1500px) {
+    .xmcomm_header {
+        width: 990px
+    }
+    .xmcomm_header .logo,.xmcomm_header .mobile_qr {
+        margin-left: 0
+    }
+    .xmcomm_header .header_menu {
+        left: -10px;
+        margin: 0 0 0 250px
+    }
+    .xmcomm_header .header_menu .hidden {
+        display: none
+    }
+    .xmcomm_header .header_menu_list {
+        left: -240px
+    }
+    .xmcomm_header .header_more_list {
+        width: 364px;
+        left: 384px
+    }
+    .xmcomm_header .header_more_list ul {
+        width: 364px
+    }
+    .xmcomm_header .header_more_list ul li.hide {
+        display: list-item
+    }
+}
+
+@media \0screen\0 {
+    .xmcomm_header .header_menu {
+        left: -10px;
+        margin: 0 0 0 250px
+    }
+    .xmcomm_header .header_menu .hidden {
+        display: none
+    }
+    .xmcomm_header .header_menu_list {
+        left: -240px
+    }
+    .xmcomm_header .header_more_list {
+        width: 364px;
+        left: 384px
+    }
+    .xmcomm_header .header_more_list ul {
+        width: 364px
+    }
+    .xmcomm_header .header_more_list ul li.hide {
+        display: list-item
+    }
+    .xmcomm_header .header_icon.header_revise {
+        margin-top: 16px
+    }
+}

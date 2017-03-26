@@ -1,0 +1,139 @@
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+
+.row .container1 ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+/* 省 */
+.row .right-body .province{
+    width:90px;
+    height:23px;
+    margin-top:6px;
+    border:1px solid #e2e2e2;
+    font-size:14px;
+    float:left;
+    line-height:22px;
+    margin-left: 26px;
+    color:#a2a2a2;
+}
+.row .right-body .province .provincexs{
+    float:left;
+    padding-left:10px;
+}
+.row .right-body .province .dianprovince{
+    width:22px;
+    height:22px;
+    display:block;
+    float:right;
+
+    cursor:pointer;
+}
+.row .right-body .province .quanprovince{
+    width:90px;
+    height:100px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    display:none;
+    margin-left:-1px;
+    border:1px solid #e2e2e2;
+    border-top:none;
+    border-right:none;
+    background-color:#FFF;
+}
+
+.row .right-body .province ul{
+    width:70px;
+}
+.row .right-body .province li:hover{
+    background-color:#f1f1f1;
+}
+/* 市 */
+.row .right-body .city{
+    width:90px;
+    height:23px;
+    margin-top:6px;
+    border:1px solid #e2e2e2;
+    font-size:14px;
+    float:left;
+    line-height:22px;
+    margin-left:10px;
+    color:#a2a2a2;
+}
+.row .right-body .city .cityxs{
+    float:left;
+    padding-left:10px;
+}
+.row .right-body .city .diancity{
+    width:22px;
+    height:22px;
+    display:block;
+    float:right;
+
+    cursor:pointer;
+}
+.row .right-body .city .quancity{
+    width:90px;
+    height:100px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    display:none;
+    margin-left:-1px;
+    border:1px solid #e2e2e2;
+    border-top:none;
+    border-right:none;
+    background-color:#FFF;
+}
+
+.row .right-body .city ul{
+    width:70px;
+}
+.row .right-body .city li:hover{
+    background-color:#f1f1f1;
+}
+/* 区 */
+.row .right-body .area{
+    width:90px;
+    height:23px;
+    margin-top:6px;
+    border:1px solid #e2e2e2;
+    font-size:14px;
+    float:left;
+    line-height:22px;
+    margin-left:10px;
+    color:#a2a2a2;
+}
+.row .right-body .area .areaxs{
+    float:left;
+    padding-left:10px;
+}
+.row .right-body .area .dianarea{
+    width:22px;
+    height:22px;
+    display:block;
+    float:right;
+
+    cursor:pointer;
+}
+.row .right-body .area .quanarea{
+    width:90px;
+    height:100px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    display:none;
+    margin-left:-1px;
+    border:1px solid #e2e2e2;
+    border-top:none;
+    border-right:none;
+    background-color:#FFF;
+}
+.row .right-body .area .mousemove{
+    display:none;
+}
+.row .right-body .area ul{
+    width:70px;
+}
+.row .right-body .area li:hover{
+    background-color:#f1f1f1;
+}
